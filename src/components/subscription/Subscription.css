@@ -1,0 +1,32 @@
+.planheaddiv {
+  background: white;
+  margin-right: 1%;
+  margin-left: 1%;
+  padding: 1%;
+  border-radius: 12px;
+  border-top: 80px solid #00006c;
+  margin-bottom: 6%;
+  margin-top: 6%;
+}
+.planheadtext {
+  color: white;
+  font-weight: bolder;
+}
+.plancosttext {
+  color: white;
+  font-weight: bolder;
+  margin-top: -1%;
+}
+.planheadtextdiv {
+  margin-top: -30%;
+}
+.planbtn {
+  background: #00006c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 55%;
+}
+.plandetaillist {
+  text-align: start;
+}

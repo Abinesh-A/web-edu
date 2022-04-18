@@ -1,0 +1,111 @@
+.logo {
+  font-weight: 900;
+  color: #00006c;
+}
+.navbgcolor {
+  background: gainsboro;
+}
+.nav-link {
+  font-size: 20px;
+  margin-right: 17px;
+  text-align: start;
+}
+.hidden {
+  display: none;
+}
+.nav-link:hover {
+  background: white;
+  font-size: 20px;
+  border-radius: 12px;
+}
+.searchicon {
+  font-size: 20px;
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  margin-right: 10px;
+}
+.menubar {
+  position: absolute;
+  font-size: 20px;
+}
+.searchicon {
+  display: none;
+}
+@media screen and (max-width: 990px) {
+  .searchicon {
+    display: block;
+  }
+}
+#searchbar {
+  display: block;
+}
+@media screen and (max-width: 997px) {
+  #searchbar {
+    display: none;
+  }
+}
+.forms {
+  position: relative;
+}
+
+.forms .fa-search .is {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  color: #9ca3af;
+}
+
+#forminputs {
+  height: 30px;
+  width: 400px;
+  text-indent: 33px;
+  border-radius: 12px;
+}
+#forminputdown {
+  height: 30px;
+  text-indent: 33px;
+  border-radius: 12px;
+}
+
+.dropbtn {
+  color: white;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  right: -350px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 12px;
+  right: 25px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.mr-auto a{
+  color: black;
+}

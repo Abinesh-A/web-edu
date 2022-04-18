@@ -1,0 +1,42 @@
+export const coursedata = [
+  {
+    img: "./course-img/english.jpg",
+    coursedetail: "Detailed Course of Spanish for Advanced part 1",
+    coursename: "English & Spanish",
+    creater: "Abinesh",
+    rating: "3",
+    cost: "$ 50",
+  },
+  {
+    img: "./course-img/spanish.jpg",
+    coursedetail: "Detailed Course of Spanish for Advanced part 1",
+    coursename: "English & Spanish",
+    creater: "Rachal",
+    rating: "2",
+    cost: "$ 50",
+  },
+  {
+    img: "./course-img/english.jpg",
+    coursedetail: "Detailed Course of Spanish for Advanced part 1",
+    coursename: "English & Spanish",
+    creater: "Lucy",
+    rating: "5",
+    cost: "$ 50",
+  },
+  {
+    img: "./course-img/spanish.jpg",
+    coursedetail: "Detailed Course of Spanish for Advanced part 1",
+    coursename: "English & Spanish",
+    creater: "Ram",
+    rating: "3",
+    cost: "$ 50",
+  },
+  {
+    img: "./course-img/english.jpg",
+    coursedetail: "Detailed Course of Spanish for Advanced part 1",
+    coursename: "English & Spanish",
+    creater: "Ahmed",
+    rating: "3",
+    cost: "$ 50",
+  },
+];

@@ -1,0 +1,10 @@
+/* * {
+  overflow-x: hidden;
+} */
+.goalpathdiv {
+  background: #ffffff;
+  border-radius: 12px;
+  padding-top: 2%;
+  margin-left: -1%;
+  margin-right: -1%;
+}

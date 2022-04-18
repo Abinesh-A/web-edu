@@ -1,0 +1,31 @@
+
+.size{
+  font-size:16px ;
+  font-weight:600;
+  color: black;
+}
+
+.logosize{
+  font-weight:600;
+  color:#00006c;
+}
+.dropdown-divider{
+  display:none
+}
+@media screen and (max-width:700px){
+  .size{
+  background-color:#f8f9fa;
+  flex-direction: column;
+  top:auto;
+  
+}
+  .dropdown-divider{
+    display:block
+  }
+}
+
+  
+  
+  
+
+

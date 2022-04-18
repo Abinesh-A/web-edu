@@ -1,0 +1,36 @@
+.imgl {
+  height: 200px;
+  width: 200px;
+  margin-top: 5%;
+  /* margin-left: 15%; */
+}
+.imgr {
+  height: 200px;
+  width: 200px;
+  margin-top: 5%;
+  /* margin-right: 25%; */
+}
+.headdiv {
+  background: #ffffff;
+  border-radius: 12px;
+  /* margin-top: 1%; */
+  padding-bottom: 1%;
+}
+.maintext {
+  font-weight: bold;
+  margin-top: 5%;
+}
+.quote {
+  font-size: 19px;
+  color: gray;
+  margin-top: 3%;
+}
+.goalbtn {
+  color: white;
+  background: #00006c;
+  border-style: none;
+  border-radius: 7px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

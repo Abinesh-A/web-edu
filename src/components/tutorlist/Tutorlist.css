@@ -1,0 +1,30 @@
+.tutorpic {
+  height: 90%;
+  width: 90%;
+  margin-right: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.tutordiv {
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px gainsboro, 0 8px 16px gainsboro, 0 8px 16px gainsboro;
+  background: white;
+  margin-top: 20px;
+}
+.tutorbtn {
+  border: none;
+  background: #0035a8;
+  border-radius: 3px;
+  color: white;
+  margin-right: 15px;
+  font-size: 15px;
+  padding: 3px;
+}
+.tutorname {
+  font-weight: bold;
+  font-size: 20px;
+}
+.tutorspecification {
+  font-weight: bold;
+}

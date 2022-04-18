@@ -1,0 +1,21 @@
+.infodiv {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 3%;
+  margin-left: 13%;
+  padding-bottom: -300px;
+}
+.updatebtn {
+  color: #ffffff;
+  background: #00006c;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.imgprofile {
+  margin-left: 200px;
+}
+.addimgbtn {
+  margin-left: 80%;
+  margin-top: -19%;
+}

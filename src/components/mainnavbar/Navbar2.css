@@ -1,0 +1,12 @@
+.navmenu {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+.navmenutag {
+  text-decoration: none;
+  color: black;
+}
+.navmenutag:hover {
+  text-decoration: none;
+}

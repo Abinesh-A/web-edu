@@ -1,0 +1,40 @@
+.coursepic {
+  height: 90%;
+  width: 90%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.coursediv {
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px gainsboro, 0 8px 16px gainsboro, 0 8px 16px gainsboro;
+  background: white;
+  margin-top: 20px;
+}
+.coursebtn {
+  border: none;
+  background: #0035a8;
+  border-radius: 3px;
+  color: white;
+  margin-right: 15px;
+  font-size: 15px;
+  padding: 3px;
+}
+.coursedetail {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.coursename {
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+}
+.coursecreater {
+  font-weight: bold;
+  font-size: 12px;
+  color: #0035a8;
+}
+.coursespecification {
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-uworldreact-dev-163832-authRole",
+      "UnauthRoleArn": "arn:aws:iam::415609928463:role/amplify-uworldreact-dev-163832-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::415609928463:role/amplify-uworldreact-dev-163832-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-uworldreact-dev-163832-deployment",
+      "UnauthRoleName": "amplify-uworldreact-dev-163832-unauthRole",
+      "StackName": "amplify-uworldreact-dev-163832",
+      "StackId": "arn:aws:cloudformation:ap-south-1:415609928463:stack/amplify-uworldreact-dev-163832/43ae8390-1f83-11ec-9b34-0253d1031d68",
+      "AmplifyAppId": "d3v4sgdmtwu3rq"
+    }
+  },
+  "auth": {
+    "uworldreact774b03b5": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-uworldreact-dev-163832-deployment/amplify-cfn-templates/auth/uworldreact774b03b5-cloudformation-template.yml",
+        "logicalId": "authuworldreact774b03b5"
+      },
+      "lastPushTimeStamp": "2021-09-27T12:24:50.984Z",
+      "output": {
+        "UserPoolId": "ap-south-1_4yb2FwCA9",
+        "AppClientIDWeb": "5fmf0748ijqte7lbq2mk0b2s02",
+        "AppClientID": "20ueioat175276n51g9avefc5n",
+        "IdentityPoolId": "ap-south-1:2ddcc59d-4011-4b9a-b02c-0dc54a913b5b",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:415609928463:userpool/ap-south-1_4yb2FwCA9",
+        "IdentityPoolName": "uworldreact774b03b5_identitypool_774b03b5__dev",
+        "UserPoolName": "uworldreact774b03b5_userpool_774b03b5"
+      },
+      "lastPushDirHash": "XznJwRUf8r90lHcgQl5QuyYUEqc="
+    }
+  }
+}

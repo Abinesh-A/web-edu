@@ -1,0 +1,26 @@
+name: uworld
+on:
+  push:
+    branches:
+      - "1.0"
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [15.x]
+    
+    
+    steps:
+      - run: echo "🎉 The Building AUJ App."
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: echo "Installing NPM..."
+      - run: npm install
+      - run: npm run build
+      - run: npm test
+

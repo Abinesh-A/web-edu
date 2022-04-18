@@ -1,0 +1,20 @@
+@import "~@fontsource/open-sans/index.css";
+.App {
+  text-align: center;
+  background: #f3f2ef;
+}
+.margin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+* {
+  font-family: open sans;
+}
+:root {
+  --amplify-primary-color: #00006c;
+  --amplify-primary-tint: #00006c;
+  --amplify-primary-shade: #00006c;
+}
+/* amplify-sign-up {
+  margin-top: 300px;
+} */

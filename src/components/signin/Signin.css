@@ -1,0 +1,46 @@
+.color {
+  color: #00006c;
+}
+.atag, .atag:hover{
+  text-decoration: none;
+  color: #00006c;
+}
+.bg{
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  margin: auto;
+}
+#bgcolor {
+  background-color: #00006c;
+  color: white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.margintops {
+  margin-top: 130px;
+}
+@media screen and (min-height: 800px) and (max-height: 1000px) {
+  .margintops {
+    margin-top: 30vh;
+  }
+}
+@media only screen and (min-height: 1000px) {
+  .margintops {
+    margin-top: 34vh;
+  }
+}
+@media only screen and (min-height: 670px) and (max-height: 800px) {
+  .margintops {
+    margin-top: 25vh;
+  }
+}
+@media screen and (max-width: 669px) {
+  .margintops {
+    margin-top: 28vh;
+  }
+}

@@ -1,0 +1,50 @@
+.maindiv {
+  text-align: center;
+}
+.scrolllist {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  max-width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  background: transparent;
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+}
+.coursescrollli {
+  background: #eeeef2;
+  color: black;
+  padding-top: 50px;
+  padding-left: 57px;
+  padding-right: 57px;
+  border-bottom: 120px solid #00006c;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px gainsboro, 0 8px 16px gainsboro, 0 8px 16px gainsboro;
+  margin: 0 8px;
+  text-align: start;
+}
+.scrollbtn {
+  border: 0;
+  color: #777;
+  font-size: 24px;
+  margin: 0 8px;
+  margin-bottom: 2.5%;
+  background: white;
+}
+.coursedp {
+  border-radius: 100%;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+.coursenames {
+  margin-bottom: -90px;
+  text-align: center;
+  color: white;
+  font-family: open sans;
+}
